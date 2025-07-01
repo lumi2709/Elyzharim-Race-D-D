@@ -1,0 +1,137 @@
+{
+    "name": "Elyzharim",
+    "type": "race",
+    "source": "Homebrew",
+    "data": [
+        {
+            "name": "Elyzharim",
+            "size": [
+                "Medium"
+            ],
+            "speed": {
+                "walk": 30
+            },
+            "vision": {
+                "darkvision": 120
+            },
+            "languages": [
+                "Common",
+                "Celestial"
+            ],
+            "resist": [
+                "Radiant",
+                "Necrotic",
+                "Psychic"
+            ],
+            "entries": [
+                {
+                    "name": "Visão Éterica",
+                    "entries": [
+                        "Você enxerga até 36 metros em escuridão mágica como se fosse penumbra."
+                    ]
+                },
+                {
+                    "name": "Presença do Octocanto",
+                    "entries": [
+                        "Você é imune a medo e encantamento. Inimigos têm desvantagem em testes de Carisma contra você no primeiro turno em que o veem."
+                    ]
+                },
+                {
+                    "name": "Forma Celestial",
+                    "entries": [
+                        "Uma vez por descanso longo, você pode manifestar sua Forma Celestial por 1 minuto, ativando o poder elevado de sua subespécie."
+                    ]
+                }
+            ],
+            "subraces": [
+                {
+                    "name": "Lira Flamejante",
+                    "ability": [
+                        {
+                            "cha": 2
+                        },
+                        {
+                            "wis": 1
+                        }
+                    ],
+                    "entries": [
+                        {
+                            "name": "A Canção dos Supremos",
+                            "entries": [
+                                "Você tem proficiência em Performance. Pode usar uma ação 1x por descanso longo para remover uma condição negativa de uma criatura a até 9m."
+                            ]
+                        },
+                        {
+                            "name": "Sinfonia do Véu Etéreo",
+                            "entries": [
+                                "1x por descanso longo, cure até 6 aliados em 9m com 1d8 + CHA e remova 2 condições."
+                            ]
+                        },
+                        {
+                            "name": "Eco Harmônico Ascendente",
+                            "entries": [
+                                "Ao curar um aliado, outro a até 9m recupera metade dos PV curados. Usa CHA por descanso longo."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Julgamento Ardente",
+                    "ability": [
+                        {
+                            "cha": 2
+                        },
+                        {
+                            "str": 1
+                        }
+                    ],
+                    "entries": [
+                        {
+                            "name": "Lâmina da Sentença Divina",
+                            "entries": [
+                                "1x por descanso curto, invoque uma arma de luz pura que dura 1min e causa +1d8 radiante. Se atingir, impõe marca de julgamento."
+                            ]
+                        },
+                        {
+                            "name": "Eco do Veredito Irrevogável",
+                            "entries": [
+                                "Se criatura marcada falhar em teste/ataque, use reação para causar 2d6 psíquico."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Trono Queimado",
+                    "ability": [
+                        {
+                            "cha": 2
+                        },
+                        {
+                            "con": 1
+                        }
+                    ],
+                    "entries": [
+                        {
+                            "name": "Aura do Vazio Sagrado",
+                            "entries": [
+                                "Criaturas a 9m fazem salvaguarda de CHA ou sofrem desvantagem em testes e ataques até o próximo turno. Ativa/suspende com ação bônus."
+                            ]
+                        },
+                        {
+                            "name": "Voz do Anátema",
+                            "entries": [
+                                "1x por descanso curto, até 3 inimigos fazem salvaguarda de SAB ou ficam amedrontados e silenciados por 1min."
+                            ]
+                        },
+                        {
+                            "name": "Reverberação da Queda Eterna",
+                            "entries": [
+                                "Ao cair a 0 PV, libere onda de 4d6 necrótico/psíquico em 9m. CON CD ou paralisia. 1x por descanso longo."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
